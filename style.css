@@ -2,5 +2,101 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* outline: 1px solid red; */
+    font-family: Inter;
 }
 
+body{
+    max-width: 2000px;
+    margin-inline:auto;
+}
+
+footer{
+    padding: 90px 4vw;
+   
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-image{
+    font-weight: 400;
+    font-size: 16px;
+    width: 341px;
+    line-height: 19px;
+    color: #575757;
+    font-weight: 400;
+}
+
+.div1 p{
+    padding-top: 17px;
+    margin-bottom: 40px;
+}
+
+.btnConc{
+    display: flex;
+    gap:25px;
+    justify-content: center;
+}
+.email-btn{
+    background: #FAFAFA;
+    border: 1px solid #E7EBEE;
+    border-radius: 5px;
+    padding: 13px;
+   width:189px;
+  margin-right: 5px;
+}
+
+.register-btn{
+    background: #FAFAFA;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 13px;
+   width:100px;
+
+}
+
+.footerCon{
+    list-style-type: none;
+}
+
+
+.footerCon :nth-child(1){
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2E2E2E;
+    padding-bottom: 31px;
+  
+}
+
+
+
+
+
+.footerCon li + li{
+ padding-top: 20px;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 22px;
+ color: #575757;
+}
+
+.footer-copyright{
+    background: #000F37; 
+    padding: 32px;
+    color: #fff;
+    text-align: center;
+}
+
+.foorter-copuright p{
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+
+}
+img{
+width:50%
+}
