@@ -1,6 +1,89 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+
 }
 
+.faqs-container {
+  width: 676px;
+  height: 926px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-head {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: -3px;
+  color: #313131;
+  margin-bottom: 8px;
+}
+
+.chamber-cont {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  width: 676px;
+  height: 100px;
+  left: 382px;
+  top: 5460px;
+  background: #fafafa;
+  border: 1px solid #e7ebee;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  gap: 44px;
+  padding: 0 0 0 64px;
+}
+
+.chamber-tag {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #313131;
+  opacity: 0.88;
+}
+
+.stuff-cont {
+  width: 676px;
+  height: 241px;
+  background: #ffffff;
+  box-shadow: 0px 20px 95px rgba(201, 203, 204, 0.3);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding: 37px 0 37px 64px;
+  align-items: flex-start;
+}
+.stuff-p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  width: 438px;
+  color: #313131;
+  opacity: 0.88;
+}
+.stuff-tag {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #575757;
+  width: 440px;
+  padding: 0 0 0 70px;
+}
+
+.color {
+  background: #fafafa;
+  border: 1px solid #e7ebee;
+}
