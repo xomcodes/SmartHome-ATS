@@ -150,7 +150,7 @@ button {
 
 .aboutUs{
   font-family: 'Inter', sans-serif;
-  padding: 0 40px;
+  padding: 0 40px 80px ;
  
 }
 
@@ -158,6 +158,7 @@ button {
   font-size: 85px;
   font-weight: 700;
   text-align: center;
+  margin-bottom: 4rem;
   
 }
 
@@ -181,9 +182,7 @@ figure > div {
   top: 38%;
 
 }
-figure > img{
-  /* margin-left: -2.5rem; */
-}
+
 .abText{
   width: 45%;
 }
