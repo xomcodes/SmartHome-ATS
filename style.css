@@ -146,6 +146,72 @@ button {
   border-radius: 150px;
 }
 
+/* ABOUT US */
+
+.aboutUs{
+  font-family: 'Inter', sans-serif;
+  padding: 0 40px;
+ 
+}
+
+.aboutUs > h2{
+  font-size: 85px;
+  font-weight: 700;
+  text-align: center;
+  
+}
+
+.abCon{
+  display: flex;
+  justify-content: space-around;
+}
+figure{
+  width: 45%;
+  text-align: center;
+  position: relative;
+}
+figure > div {
+  position: absolute;
+  width: 546px;
+  width: 100%;
+  height: 352px;
+  background-color: #1E5AFA;
+  border-radius: 10px;
+  z-index: -1;
+  top: 38%;
+
+}
+figure > img{
+  /* margin-left: -2.5rem; */
+}
+.abText{
+  width: 45%;
+}
+
+.abText h2{
+  font-weight: 600;
+  font-size: 46px;
+  color: #000F37;
+  width: 471px;
+}
+.abText p{
+  font-weight: 400;
+  font-size: 20px;
+  color: #575757;
+  width: 446px;
+  line-height: 32px;
+}
+.abText button{
+  width: 185px;
+  height: 58px;
+  background: #000F37;
+  border: 1px solid #000F37;
+  box-shadow: 0px 100px 80px rgba(56, 56, 56, 0.1), 0px 64.8148px 46.8519px rgba(56, 56, 56, 0.0759259), 0px 38.5185px 25.4815px rgba(56, 56, 56, 0.0607407), 0px 20px 13px rgba(56, 56, 56, 0.05), 0px 8.14815px 6.51852px rgba(56, 56, 56, 0.0392593), 0px 1.85185px 3.14815px rgba(56, 56, 56, 0.0240741);
+  border-radius: 5px;
+  color: #fff;
+}
+
+
 /* CLIENT&TESTIMONY */
 
 .our-clients {
